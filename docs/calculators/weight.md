@@ -117,10 +117,9 @@ derivations as the original.
 
 ## Worked Example
 
-No worked numeric example with expected output was included with the
-original program (`WEIGHT.TXT` only describes the general workflow of
-adding several shapes' weights to a running total). As independently
-verifiable checks, this conversion's tests confirm several shape
+No worked numeric example with expected output is available. As
+independently verifiable checks, this conversion's tests confirm
+several shape
 formulas against known geometric identities rather than hand-copied
 numbers: a cylinder and sphere against their standard textbook
 formulas; an annulus against an algebraically identical pipe; a

@@ -32,8 +32,9 @@ vrev -holes my-punch-holder.dat
 ```
 
 The file needs one hole diameter per line, in the order the holes
-will be drilled. A worked example built from `VREV.TXT`'s own pin
-punch holder example ships at `MWKGo/vrev/testdata/example.dat`.
+will be drilled. A worked example built from the original program's
+own pin punch holder example ships at
+`MWKGo/vrev/testdata/example.dat`.
 
 ## Inputs
 
@@ -74,10 +75,10 @@ hole's half-width.
 
 ## Worked Example
 
-`VREV.TXT`'s own pin-punch-holder example (eight holes: two each of
-0.265625, 0.328125, 0.40625 in, plus one 0.484375 in) is this
-conversion's worked example, reproduced in its tests to within the
-four decimal places the original documentation shows: a minimum bolt
-circle diameter of 1.1915, an actual spacing of 0.1236 at a chosen
+The original program's own pin-punch-holder example (eight holes:
+two each of 0.265625, 0.328125, 0.40625 in, plus one 0.484375 in) is
+this conversion's worked example, reproduced in its tests to within
+the four decimal places the original documentation shows: a minimum
+bolt circle diameter of 1.1915, an actual spacing of 0.1236 at a chosen
 diameter of 1.25, the full eight-hole position table, and theoretical
 (1.7344) and recommended (1.9816) stock diameters.

@@ -47,10 +47,9 @@ else:
 
 ## Worked Example
 
-No worked numeric example was included with the original program
-(`WEDGECO.TXT` explains the geometry but includes no sample run). The
-formula's translation from the original was cross-checked
-independently by numerical integration of the cone's circular
+No worked numeric example is available. The formula's translation
+from the original was cross-checked independently by numerical
+integration of the cone's circular
 cross-sections against the cutting plane before being trusted for
 this conversion's tests. As a further, independently verifiable
 check: the wedge volumes cut at sagitta `s` and at the complementary

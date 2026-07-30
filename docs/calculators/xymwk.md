@@ -8,9 +8,9 @@ align, distance, and pitch circle.
 
 ## Purpose
 
-Per `XYMWK.TXT`: clamp a part to a precision 90-degree angle plate,
-measure feature heights with a height gauge to get one coordinate,
-rotate 90 degrees and measure again to get the other, and you have a
+Clamp a part to a precision 90-degree angle plate, measure feature
+heights with a height gauge to get one coordinate, rotate 90 degrees
+and measure again to get the other, and you have a
 raw x,y coordinate for each feature — referenced to the plate, not to
 whatever is actually convenient for checking the part. This program
 takes that raw list of points and performs one of four operations on
@@ -73,9 +73,11 @@ functions).
 `XYMWK.C` declares and fully implements `display()` — a function that
 prints exactly the table this conversion's `reference`/`align` print
 (original and transformed x/y, radius, angle in both notations) — and
-its own description in `XYMWK.TXT` matches what `display()` would
-show. But `display()` is never actually called anywhere in `main()`:
-in the real program, `reference` and `align` only silently re-plot the
+the original program's own accompanying documentation describes
+`reference` and `align` as showing exactly this table, matching what
+`display()` would show. But `display()` is never actually called
+anywhere in `main()`: in the real program, `reference` and `align`
+only silently re-plot the
 points on screen with no printed values at all, and only `distance`
 and `pitchcircle` draw short text results onto the graphics screen (no
 output file exists for this program at all, unlike most others in this
