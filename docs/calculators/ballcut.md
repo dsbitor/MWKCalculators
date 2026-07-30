@@ -57,8 +57,9 @@ file-save-then-page convenience, the same approach used for `loan`
 
 ## Worked Example
 
-`BALLCUT.TXT` includes two complete worked example tables (angular
-increment mode), both reproduced in this conversion's tests: a 1"
+The original program's own two complete worked example tables
+(angular increment mode) are both reproduced in this conversion's
+tests: a 1"
 sphere from 1" stock (19 rows, N=0 to N=18) and a 2" radius cut on 1"
 stock (terminating once the required depth would exceed the
 available stock). The second example's exact termination point sits

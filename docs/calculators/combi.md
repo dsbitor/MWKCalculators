@@ -65,7 +65,7 @@ introduced by this conversion.
 
 ## Worked Example
 
-`COMBI.TXT` ships an exact worked example: 6 things taken 4 at a
+The original program's own worked example is 6 things taken 4 at a
 time, listing all 15 combinations in the algorithm's own generation
 order. This conversion's tests reproduce that exact sequence,
 including its very last entry: the algorithm starts at `ABCD`

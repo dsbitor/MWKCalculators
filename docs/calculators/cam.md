@@ -73,15 +73,16 @@ whether or not a roller is actually in use, since `rollerRadius=0`
 for a flat-faced follower is a no-op), and the pressure angle —
 the angle between the follower's motion and the cam surface normal,
 which produces side-thrust on the follower — is
-`atan(velocity / (base+displacement+rollerRadius))`. `CAM.TXT`
-recommends keeping this under 35°; the base-radius suggestion table
-inverts the same relationship at the point of *maximum* pressure
-angle, to show what a larger base circle would buy back.
+`atan(velocity / (base+displacement+rollerRadius))`. The original
+program prints a reminder to keep this under 35° to limit side-thrust
+on the follower; the base-radius suggestion table inverts the same
+relationship at the point of *maximum* pressure angle, to show what a
+larger base circle would buy back.
 
 ## Worked Example
 
-`CAM.TXT` documents its own default example directly: a cycloidal
-cam, 1.625 base circle radius, 1.25 rise over 120° of rotation. As
+The original program's own default example is a cycloidal cam, 1.625
+base circle radius, 1.25 rise over 120° of rotation. As
 independently verifiable checks (no exact numeric worked output was
 shipped), this conversion's tests confirm: every motion law starts at
 zero displacement and ends at the full rise; the piecewise parabolic

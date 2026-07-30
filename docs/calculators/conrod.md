@@ -32,7 +32,13 @@ Phi (the angle between the con rod and the line to the crank
 center), the gudgeon-pin-to-crank-center distance, the worst-case
 clearance, and several intermediate distances (`d34`, `d45`, `d35`,
 `d23`, `d13`, `d12`, `d14`, `d25`) matching the labeled points in the
-original program's accompanying diagram.
+original program's accompanying diagram. If the worst-case clearance
+(`d23`) is greater than half the connecting rod's own thickness,
+the rod will not foul the cylinder wall; otherwise the designer needs
+to increase the crank-to-cylinder-bottom height, lengthen the rod, or
+relieve the cylinder wall for clearance. For a complete time history
+of the gudgeon pin's position through a full rotation rather than
+just this worst-case snapshot, see [crod](crod.md).
 
 ## Method
 
@@ -51,9 +57,7 @@ d25 = d35 * sin(phi)
 
 ## Worked Example
 
-No fully worked numeric example was included with the original
-program (`CONROD.TXT` explains the geometry and includes Tom Roach's
-own description of the problem, but no sample run). As an
+No fully worked numeric example is available. As an
 independently verifiable check: the gudgeon-to-crank distance is the
 hypotenuse of the crank radius and rod length by the Pythagorean
 theorem regardless of the other inputs, and a crank radius of zero

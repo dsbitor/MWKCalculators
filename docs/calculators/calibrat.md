@@ -31,8 +31,8 @@ calibrat -data my-calibration-run.dat
 
 The file needs one `truth,measured` pair per line (comma or tab
 separated). A worked example built from the original `CALIBRAT.DAT`'s
-own default data (the thermometer example from `CALIBRAT.TXT`) ships
-at `MWKGo/calibrat/testdata/example.dat`.
+own default data (the thermometer example below) ships at
+`MWKGo/calibrat/testdata/example.dat`.
 
 ## Inputs
 
@@ -64,7 +64,7 @@ treatment given to other characterful original text such as `vrev`'s
 
 ## Worked Example
 
-`CALIBRAT.TXT` gives a complete worked example: a thermometer reading
+The original program's own worked example is a thermometer reading
 2°C in ice water (truth 0) and 102°C in boiling water (truth 100),
 checked against a calibrated oven at 50°C reading 51°C (truth 50).
 This conversion's tests reproduce it exactly: `A = 1.000000`,

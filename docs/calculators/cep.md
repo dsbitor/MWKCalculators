@@ -58,8 +58,7 @@ the program's own step size).
 
 ## Worked Example
 
-No worked numeric example was included with the original program
-(`CEP.TXT` explains the concept but includes no sample run). As an
+No worked numeric example is available. As an
 independently verifiable check: for two equal, uncorrelated Gaussian
 sources (a circular bivariate normal distribution), the exact 50%
 CEP radius is a well known closed-form constant,

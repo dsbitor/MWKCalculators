@@ -59,9 +59,8 @@ correction.
 
 ## Worked Example
 
-No worked numeric example was included with the original program
-(`3WIRE.TXT` is a reference table of standard thread dimensions, not
-a sample run). As an independently verifiable check: the "best wire"
+No worked numeric example is available. As an independently
+verifiable check: the "best wire"
 diameter is a well known standard constant, `0.577350*pitch`,
 confirmed in this conversion's tests; and converting a pitch diameter
 to a measurement over wires and back exactly recovers the original

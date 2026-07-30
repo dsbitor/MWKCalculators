@@ -78,14 +78,14 @@ exactly. `coding-style.md` Rule 2 replaces the original's interactive
 keypress abort with an explicit search-evaluation cap shared across
 every leadscrew pitch tried in one run.
 
-`CHANGE.TXT` explains that this program deliberately eliminates the
-duplicate output its own predecessor, `CHANGEX.C` (bundled in the same
-archive), produced for gear trains that are geometrically different
-arrangements of the same gears but mathematically identical ratios
-(`A:B-C:D` and `C:D-A:B` both give `R = AC/BD`) — `CHANGEX` is
-deferred to a future clean-up group alongside `combi`, `ratio`, and
-`belt`, since `CHANGE` supersedes it for every case that doesn't
-specifically need to see those redundant variants.
+This program deliberately eliminates the duplicate output its own
+predecessor, `CHANGEX.C` (bundled in the same archive), produced for
+gear trains that are geometrically different arrangements of the same
+gears but mathematically identical ratios (`A:B-C:D` and `C:D-A:B`
+both give `R = AC/BD`) — `CHANGEX` is deferred to a future clean-up
+group alongside `combi`, `ratio`, and `belt`, since `CHANGE` supersedes
+it for every case that doesn't specifically need to see those
+redundant variants.
 
 ## Worked Example
 
