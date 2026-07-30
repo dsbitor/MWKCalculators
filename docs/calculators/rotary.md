@@ -14,9 +14,6 @@ decimal degree value and split into degrees, minutes, and seconds,
 for setting a rotary table when the division count doesn't correspond
 to a convenient round number of degrees.
 
-No `.TXT` file was included with the original program; this purpose
-statement is drawn from the `.C` file's own header comment.
-
 ## Inputs
 
 | Prompt | Default |

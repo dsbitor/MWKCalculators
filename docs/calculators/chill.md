@@ -16,10 +16,6 @@ source carries that older table as a comment for reference, but
 it corresponds to the superseded formula, not the one this
 program actually runs, and so is not carried forward here.
 
-No `.TXT` file was included with the original program; this
-purpose statement is drawn from the `.C` file's own header
-comment and its embedded formula history.
-
 ## Inputs
 
 | Prompt | Default |

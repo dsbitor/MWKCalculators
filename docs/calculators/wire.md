@@ -13,10 +13,6 @@ density (amps per circular mil), recommends the nearest standard
 AWG wire gage and reports that gage's diameter, cross-sectional
 area, resistance, and weight per 1000 feet.
 
-No `.TXT` file was included with the original program; this
-purpose statement is drawn from the `.C` file's own header
-comment.
-
 ## Inputs
 
 | Prompt | Default |

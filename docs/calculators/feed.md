@@ -13,9 +13,6 @@ all related by one formula; given any three of the five related
 quantities (speed, cutting edges, chip load, and feed expressed as
 either in/min or in/rev), this program solves for the rest.
 
-No `.TXT` file was included with the original program; this purpose
-statement is drawn from the `.C` file's own header comment.
-
 ## Inputs
 
 Enter whichever of the following you know; leave the rest blank.

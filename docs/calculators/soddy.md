@@ -15,10 +15,8 @@ outer Soddy circle, which encloses all three, or the inner Soddy
 circle, nestled in the gap between them. This is Descartes'
 Circle Theorem.
 
-No `.TXT` file was included with the original program; this
-purpose statement is drawn from the `.C` file's own header
-comment. The same zip file also contains `PLUG.C`, an unrelated
-program not yet converted.
+The same zip file also contains `PLUG.C`, an unrelated program
+not yet converted.
 
 ## Inputs
 

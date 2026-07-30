@@ -16,10 +16,6 @@ flat material a bend of a given angle, radius, and material
 thickness will consume, along with the lengths measured at the
 bend's inner and outer surfaces.
 
-No `.TXT` file was included with the original program; this
-purpose statement is drawn from the `.C` file's own header
-comment.
-
 ## Inputs
 
 | Prompt | Default |

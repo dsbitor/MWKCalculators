@@ -15,10 +15,6 @@ wheel's diameter and tooth count, and the workpiece's nominal
 diameter, this program finds the closest diameter that fits a
 whole number of teeth and closes the pattern perfectly.
 
-No `.TXT` file was included with the original program; this
-purpose statement is drawn from the `.C` file's own header
-comment.
-
 ## Inputs
 
 | Prompt | Default |

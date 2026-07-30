@@ -15,10 +15,6 @@ points. Useful for stepping off equally spaced points on a
 circle (bolt circles, index marks) with dividers rather than a
 protractor.
 
-No `.TXT` file was included with the original program; this
-purpose statement is drawn from the `.C` file's own header
-comment.
-
 ## Inputs
 
 | Prompt | Default |

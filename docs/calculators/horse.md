@@ -13,10 +13,6 @@ standard formula. Given any two of the three, this program
 solves for the third. If fewer than two are given, it reports
 that there isn't enough data for a solution rather than guessing.
 
-No `.TXT` file was included with the original program; this
-purpose statement is drawn from the `.C` file's own header
-comment.
-
 ## Inputs
 
 | Prompt | Default |

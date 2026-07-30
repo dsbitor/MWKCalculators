@@ -15,10 +15,6 @@ supports `g` and `l`, which compute the greatest common divisor
 or least common multiple of the whole-number parts of the two
 operands, for expressions like `12 g 18`.
 
-No `.TXT` file was included with the original program; this
-purpose statement is drawn from the `.C` file's own header
-comment and the program's own printed usage line.
-
 ## Inputs
 
 An expression, given as a command-line argument or, if none is

@@ -14,10 +14,6 @@ that depth. This program computes that extra depth, the "tip
 allowance", from the drill's diameter and its included tip
 angle.
 
-No `.TXT` file was included with the original program; this
-purpose statement is drawn from the `.C` file's own header
-comment.
-
 ## Inputs
 
 | Prompt | Default |

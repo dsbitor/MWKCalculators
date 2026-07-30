@@ -43,8 +43,7 @@ reports it as an explicit error instead, the same policy as
 
 ## Worked Example
 
-No worked numeric example was included with the original program
-(`RFRAC.C` has no companion `.TXT` file). As an independently
+No worked numeric example is available. As an independently
 verifiable check: the documented default input (3.14159 to 0.01%
 accuracy) converges on 355/113 (Milü), the famous, extremely accurate
 historical rational approximation to pi, independent of both this

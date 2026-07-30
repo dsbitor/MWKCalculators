@@ -11,12 +11,8 @@ Sprocket center-to-center distance for a given chain length.
 Given a roller chain's pitch and length (in pitches) and the
 tooth counts of the two sprockets it will run on, computes the
 center-to-center mounting distance needed. The companion program
-`SPROCKET.C`, from the same zip file, has not been converted
-yet.
-
-No `.TXT` file was included with the original program; this
-purpose statement is drawn from the `.C` file's own header
-comment.
+from the same zip file, [sprocket](sprocket.md), computes ANSI
+standard sprocket dimensions.
 
 ## Inputs
 

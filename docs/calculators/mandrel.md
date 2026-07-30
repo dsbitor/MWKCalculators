@@ -17,10 +17,6 @@ phosphorus bronze wire. Given the wire type, wire diameter, and
 desired spring inside diameter, this program computes the
 mandrel diameter to wind on.
 
-No `.TXT` file was included with the original program; this
-purpose statement is drawn from the `.C` file's own header
-comment.
-
 ## Inputs
 
 | Prompt | Default |

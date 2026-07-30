@@ -14,9 +14,6 @@ edge-to-edge spacing between adjacent holes (warning if they would
 overlap) and the angular and Cartesian coordinates of every hole, for
 laying out or programming the pattern.
 
-No `.TXT` file was included with the original program; this purpose
-statement is drawn from the `.C` file's own header comment.
-
 ## Inputs
 
 | Prompt | Default |

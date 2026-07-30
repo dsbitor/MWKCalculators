@@ -63,10 +63,10 @@ round-half-up.
 
 ## Worked Example
 
-No `.TXT` file was shipped with this program, but its own menu text
-states each standard series' approximate step percentage directly (5
-numbers ~58% apart, 10 ~26%, 20 ~12%, 40 ~6%, 80 ~3%) — a worked
-example baked into the program's own interface. This conversion's
+The program's own menu text states each standard series' approximate
+step percentage directly (5 numbers ~58% apart, 10 ~26%, 20 ~12%, 40
+~6%, 80 ~3%) — a worked example baked into the program's own
+interface. This conversion's
 tests confirm the step-percentage formula against each of those five
 values, and separately confirm the R10 series' own 6th entry equals
 √10 exactly (a well known constant, since `10^(5/10) = 10^0.5`). A

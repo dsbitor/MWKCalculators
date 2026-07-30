@@ -16,10 +16,6 @@ and the slope of the sides, this program computes the miter
 gauge angle and the blade tilt for both a mitred and a butted
 joint style.
 
-No `.TXT` file was included with the original program; this
-purpose statement is drawn from the `.C` file's own header
-comment.
-
 ## Inputs
 
 | Prompt | Default |

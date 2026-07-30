@@ -62,8 +62,8 @@ perpendicular bisectors of two of the triangle's sides.
 
 ## Worked Example
 
-The original `.TXT` file gives no worked numeric example. As an
-independently verifiable check: distances of 3, 4, and 5 (a
-right triangle) give a circumradius of exactly 2.5, half the
+No worked numeric example is available. As an independently
+verifiable check: distances of 3, 4, and 5 (a right triangle)
+give a circumradius of exactly 2.5, half the
 hypotenuse, regardless of which distance is entered as d12,
 d13, or d23.

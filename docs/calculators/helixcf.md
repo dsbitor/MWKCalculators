@@ -17,10 +17,6 @@ template thickness, this program computes the gear blank
 diameter, whole tooth depth, pitch diameter, helix lead, and the
 angle to cut the guide template at.
 
-No `.TXT` file was included with the original program; this
-purpose statement is drawn from the `.C` file's own header
-comment and the referenced forum thread's subject.
-
 ## Inputs
 
 | Prompt | Default |

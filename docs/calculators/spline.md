@@ -25,12 +25,6 @@ wrapper actually does, which is what let this project's survey work
 confirm the `wline` → line-segment mapping used throughout
 `internal/svgplot`.
 
-No `.TXT` companion file was shipped with this program; this
-conversion draws its documentation directly from `SPLINE.C`'s own
-header comment and `SPLINE.DAT`'s inline comments instead, per the
-per-program conversion checklist's fallback for a program with no
-`.TXT` file.
-
 ## Data setup
 
 The data points are specific to one curve-fitting job — `SPLINE.DAT`'s
@@ -82,8 +76,8 @@ term weighted by each point's own coefficient.
 
 ## Worked Example
 
-No numeric worked example was shipped (no `.TXT` file, and
-`SPLINE.C` never prints anything itself — it only draws). As
+No numeric worked example is available, since `SPLINE.C` never
+prints anything itself — it only draws. As
 independently verifiable checks, this conversion's tests confirm the
 shipped example's deliberately-out-of-order first point sorts into
 its correct position; that the fitted curve passes through every

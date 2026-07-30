@@ -62,10 +62,9 @@ resulting order is identical either way.
 
 ## Worked Example
 
-No separate `.TXT` worked example was shipped with the original
-program; `COLSORT.DAT`'s own 30-material density table (sorted
-decreasing by its second column) serves as this conversion's test
-data. Tests confirm the header parses correctly, that the heaviest
+`COLSORT.DAT`'s own 30-material density table (sorted decreasing by
+its second column) serves as this conversion's test data. Tests
+confirm the header parses correctly, that the heaviest
 entry (Zinc, 17.0) sorts first and the lightest (Carbon, 1.4) sorts
 last under a decreasing sort, that the full result is monotonically
 non-increasing, and — using a small synthetic table — that an

@@ -14,10 +14,6 @@ that number. The original documents a practical scope of
 numbers under 2^32-1 (4,294,967,295); the Go conversion accepts
 any value that fits a 64-bit unsigned integer.
 
-No `.TXT` file was included with the original program; this
-purpose statement is drawn from the `.C` file's own header
-comment.
-
 ## Inputs
 
 The number to factor, given as a command-line argument
