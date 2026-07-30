@@ -170,6 +170,13 @@ task vet    # go vet ./...
 task fmt    # gofmt -l -w .
 ```
 
+`task build`/`test`/`vet`/`fmt`/`coverage` are thin wrappers around
+plain `go` commands (see `Taskfile.yml`, not published to this
+GitHub mirror). If [go-task](https://taskfile.dev/) isn't
+installed, `compilingGo.md` gives the equivalent `go build`/
+`go test`/`go vet`/`gofmt`/`go tool cover` commands directly, with
+an explanation of what each flag does.
+
 ## Context file library
 
 This project's engineering standards (Go style, testing,
