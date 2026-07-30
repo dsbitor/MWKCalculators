@@ -1,0 +1,9 @@
+STARTOFDATA
+
+-50,-30		;this entry is purposely out of order
+-180,50		;same line comments separated by ';' are ok
+-150,-50
+-100,-80
+
+;Anything entered below the next line will be ignored
+ENDOFDATA

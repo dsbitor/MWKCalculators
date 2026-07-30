@@ -1,0 +1,12 @@
+STARTOFDATA
+
+;Example with a slack pulley
+-2.36,0.465,0.25,1
+0.325,-0.62,0.25,1
+0.0,0.0,1.0,-1
+0.69,0.22,0.25,1
+0.54,1.33,0.75,1
+-1.1,1.23,0.25,-1	;this pulley should be slack
+
+;above the line below requires a semicolon
+ENDOFDATA

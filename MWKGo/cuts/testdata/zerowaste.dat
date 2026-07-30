@@ -1,0 +1,12 @@
+; small data set demonstrating CUTS.TXT's "Update 2/02" case: the
+; default greedy search finds a worse answer (waste=22, 3 lengths)
+; than -zero-waste does (waste=2, 2 lengths) for this same problem.
+
+20		;standard bar length
+
+1,10
+2,7
+1,6
+2,4
+
+ENDOFDATA

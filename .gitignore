@@ -1,0 +1,21 @@
+# This repository's primary VCS is Fossil (see .fslckout); this
+# .gitignore exists only to let a separate, parallel Git remote
+# publish a subset of the tree to GitHub (README, Go source under
+# MWKGo/, and docs/) without dragging in the original C source,
+# planning notes, or local build artifacts.
+
+/*
+
+!/README.md
+!/LICENSE
+!/.gitignore
+!/MWKGo/
+!/docs/
+
+# Within the allowed directories, still exclude editor/OS/build
+# artifacts that don't belong in the published source.
+.DS_Store
+*.swp
+*.tmp
+coverage.out
+coverage.html
