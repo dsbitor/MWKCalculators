@@ -49,10 +49,9 @@ separation(angle) = 2*radius*sind(0.5*(angle+closedAngle)) - pinDiameter
 
 ## Worked Example
 
-No worked numeric example was included with the original program
-(`PROTRAC.TXT` explains the hinge and pin arrangement with an ASCII
-diagram, but no sample run). As an independently verifiable check: an
-included angle of exactly zero must return the calibrated closed-gap
+No worked numeric example is available. As an independently
+verifiable check: an included angle of exactly zero must return the
+calibrated closed-gap
 separation, and converting an angle to a separation and back must
 reproduce the original angle; both confirmed in this conversion's
 tests.

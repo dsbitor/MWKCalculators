@@ -28,8 +28,8 @@ simul -equations my-system.dat
 
 The file needs a line with the number of unknowns N, then N lines
 each with N comma-separated coefficients followed by the equation's
-constant term. A worked example built from `SIMUL.TXT`'s own 4x4
-example ships at `MWKGo/simul/testdata/example.dat`.
+constant term. A worked example, the original program's own 4x4
+system, ships at `MWKGo/simul/testdata/example.dat`.
 
 ## Inputs
 
@@ -53,11 +53,11 @@ program itself is a direct port of.
 
 ## Worked Example
 
-`SIMUL.TXT`'s own worked example (a 4-unknown system) is this
-conversion's test: rather than asserting specific solution values,
-the test substitutes the solved values back into each original
-equation and confirms the residual is negligible — the actual
-defining property of a correct solution, not a re-derivation of one.
-A second test confirms `SIMUL.TXT`'s own example of a *non*-
+The original program's own worked example (a 4-unknown system, shown
+above) is this conversion's test: rather than asserting specific
+solution values, the test substitutes the solved values back into
+each original equation and confirms the residual is negligible — the
+actual defining property of a correct solution, not a re-derivation
+of one. A second test confirms the original's own example of a *non*-
 independent system (`x + y = 3` and `2x + 2y = 6`, the second being
 just the first doubled) is correctly detected as singular.

@@ -11,8 +11,8 @@ A generalization of [ogive](ogive.md) and [egg](egg.md): rather than a
 single closed-form shape, `profile` reads an arbitrary list of
 `(x, radius)` points describing a workpiece's outline and computes a
 roughing schedule of axial cutting passes with a square- or
-round-tipped tool, the same way BALLCUT (its spherical-shape-only
-predecessor, per `PROFILE.TXT`) does. Between data points, the shape
+round-tipped tool, the same way [ballcut](ballcut.md) (its
+spherical-shape-only predecessor) does. Between data points, the shape
 is filled in either by linear interpolation (the default) or, where
 the data file says so, a natural cubic spline fit over a declared
 range of points.

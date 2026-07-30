@@ -12,10 +12,10 @@ The same cutting-stock problem [cuts](cuts.md) and
 [cutlist](cutlist.md) solve, but for a heterogeneous collection of
 leftover remnant lengths rather than one uniform standard bar length,
 and accounting for a saw kerf (material lost to the cut itself) on
-every piece. Per `CUTS.TXT`, it was written for a user who had a pile
-of odd-length leftover stock rather than fresh standard bars, reusing
-Mike Graham's `cutlist` heuristic rather than the original author's
-own (inferior, by his own account) algorithm.
+every piece. It was written for a user who had a pile of odd-length
+leftover stock rather than fresh standard bars, reusing Mike Graham's
+`cutlist` heuristic rather than the original author's own (inferior,
+by his own account) algorithm.
 
 ## Inputs
 

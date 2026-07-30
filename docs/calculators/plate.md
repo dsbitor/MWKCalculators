@@ -19,14 +19,17 @@ drill, on what diameter, and the actual web thickness that
 results (since the hole count must be a whole number, the
 requested web thickness is only approximate).
 
-This program shares its layout mathematics with `slug`
+This program shares its layout mathematics with [slug](slug.md)
 (`SLUG.C`, in the same zip file), which solves the mirror-image
 problem of opening a large hole rather than cutting a plate
 free; both are implemented here on top of a shared
-`internal/chaindrill` package. `SLUG.TXT`, written for the
-`slug` side of the problem, is this program's only surviving
-documentation and is carried forward on the `slug` page instead
-of duplicated here.
+`internal/chaindrill` package. The only surviving documentation
+for this shared logic was written for the `slug` side of the
+problem, and is carried forward on that page instead of
+duplicated here. Once the drilling circle's diameter and hole
+count are known, [boltcirc](boltcirc.md) can lay out the holes
+by x,y coordinates for a milling machine, an alternative to
+stepping off chordal distances with dividers.
 
 ## Inputs
 
@@ -53,9 +56,9 @@ machining removes the scalloped edge down to size.
 
 ## Worked Example
 
-No worked example specific to `plate` was included with the
-original program (`SLUG.TXT` documents `slug`'s worked examples
-only). As an independently verifiable check: growing the
+No worked example specific to `plate` is available (the surviving
+documentation's worked examples are for `slug`'s own mirror-image
+problem instead). As an independently verifiable check: growing the
 drilling circle outward and then shrinking the same amount back
 inward returns to the original final diameter, confirmed in
 `internal/chaindrill`'s own tests.

@@ -41,10 +41,9 @@ where R is the workpiece radius and r is the ball mill radius.
 
 ## Worked Example
 
-No worked numeric example was included with the original program
-(`ROUNDER.TXT` explains the setup and the meaning of A/B/C/D but
-includes no sample run). As independently verifiable checks: at
-theta=0 and theta=90 the values reduce to the obvious endpoints of a
+No worked numeric example is available. As independently
+verifiable checks: at theta=0 and theta=90 the values reduce to the
+obvious endpoints of a
 quarter turn, `(A,B)` always lies on a circle of radius `R+r`
 centered on the origin, and `C`/`D` are always exactly `(R+r)-A` and
 `(R+r)-B` respectively; all confirmed in this conversion's tests.

@@ -39,7 +39,7 @@ command; run `help` for the full list. The main categories:
 | `+ - * / x/y`                                             | basic arithmetic (`x/y` divides the y register by x) |
 | `roll rolldn xy xm`                                       | stack rearrangement                                  |
 | `e lastx 1/x chs`                                         | constants and single-value operators                 |
-| `pi sqr sqrt fact`                                        | pi, x², √x, x!                                       |
+| `pi sqr sqrt fact`                                        | pi, x², √x, x! (integers 0-170 only; 171! overflows) |
 | `store store+ store- store* store/`                       | store into memory                                    |
 | `rcall rcall+ rcall- rcall* rcall/`                       | recall from memory                                   |
 | `sin cos tan rss`                                         | trig; `rss` = √(x²+y²)                               |
@@ -112,7 +112,7 @@ than "corrected"; see `TestLogYX_UsesLastXAsBase` for a worked demonstration.
 Worked Example
 --------------
 
-`RPC.TXT` describes the operators but includes no worked numeric transcript. As
+No worked numeric transcript is available. As
 independently verifiable checks, this conversion's tests confirm: `3 enter 4 +`
 = 7; `5!` = 120; `gcd(12,18)` = 6 and `lcm(4,6)` = 12; `asin(sin(x))` reproduces
 x for x in [-90°,90°]; converting rectangular to polar and back reproduces the

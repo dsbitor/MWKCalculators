@@ -49,9 +49,9 @@ differentiating the angle with respect to `d1` and `r`.
 
 ## Worked Example
 
-From the original author's own notes (`SINE.TXT`): building a 10
-degree sine bar with a 0.375in first cylinder and a 3in link
-spacing needs a second cylinder of 0.898in, and the same notes
+From the original author's own notes: building a 10 degree sine bar
+with a 0.375in first cylinder and a 3in link spacing needs a second
+cylinder of 0.898in, and the same notes
 state that a 0.001in error in either cylinder's diameter causes
 about 0.01 degrees of angle error, while the same error in the
 link spacing causes about 0.002 degrees. Checking the ported

@@ -39,10 +39,8 @@ diameter = stick*cosd(theta) / (1 - 0.5*(1 - cosd(beta)))
 
 ## Worked Example
 
-No fully worked numeric example was included with the original
-program (`RATTLE.TXT` explains the technique and its origin in Guy
-Lautard's "Home Machinist's Bedside Reader #1" but includes no
-sample run). As an independently verifiable check: a rattle distance
-of zero means the stick already fits the bore exactly, so the
+No fully worked numeric example is available. As an independently
+verifiable check: a rattle distance of zero means the stick already
+fits the bore exactly, so the
 diameter must equal the stick length exactly, confirmed in this
 conversion's tests.
