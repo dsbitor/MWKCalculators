@@ -2,10 +2,10 @@
 
 One page per converted calculator, under `docs/calculators/`.
 Each page carries forward the purpose, inputs, method, and any
-worked example from the original C program's `.TXT` file or,
-where none was included, its `.C` header comment, so that
-information isn't lost once the original `.TXT` files stop
-being read directly.
+worked example from the original program's own documentation or
+source, stated directly rather than by pointing back to it, so
+that information isn't lost once the original files stop being
+read directly.
 
 This index is updated at the end of each conversion session as
 new calculators are added; it is not a substitute for reading
@@ -320,9 +320,9 @@ set) is machine-specific, added to `userdata.db`, and reuses the
 odometer-style nested search `gearfind` pioneered in Tier 1, bounded
 per `coding-style.md` Rule 2 in place of the original's interactive
 abort. `calibrat`, `vrev`, and `simul` each ship a worked example data
-file built from their own original `.DAT`'s default content or
-`.TXT`'s documented example, letting a user try the program
-immediately without writing their own input file first.
+file built from their own original documented example, letting a user
+try the program immediately without writing their own input file
+first.
 
 ### Group 4
 
@@ -383,8 +383,8 @@ units, 23 prefixes, universal reference data in `reference.db`) is
 the largest and most complex program in the whole batch, using a
 section-based data-file format (`BEGINPREFIX`/`BEGINPRIMARY`/
 `BEGINMIXED`) unlike every other Tier 2 program's
-`STARTOFDATA`/`ENDOFDATA` convention; its own `.TXT` file shipped a
-full worked tutorial with exact numeric output, which this
+`STARTOFDATA`/`ENDOFDATA` convention; the original program's own
+worked tutorial gives exact expected numeric output, which this
 conversion's tests reproduce directly against the real shipped
 `reference.db`. `belt` (a job's own pulley layout, per-invocation
 ephemeral data like `curfit`) closes out the regular Tier 2 sequence,
@@ -514,16 +514,18 @@ mouse-driven menu (present in five of the eight Tier 3 programs) this
 project actually needed to make an explicit drop decision about —
 dropped entirely rather than adapted, since a static SVG image has no
 equivalent for a live coordinate readout following the mouse cursor.
-Its own `.TXT` file has a small but real documentation/code mismatch,
-worth noting rather than silently perpetuating: it calls the output
-file `CROD.DAT`, but `CROD.C` actually writes `CROD.OUT`. `ogive` and
-`egg` are the two Tier 3 programs with no interactive prompts of any
+Its own accompanying documentation has a small but real
+documentation/code mismatch, worth noting rather than silently
+perpetuating: it calls the output file `CROD.DAT`, but `CROD.C`
+actually writes `CROD.OUT`. `ogive` and `egg` are the two Tier 3
+programs with no interactive prompts of any
 kind — `ogive`'s parameters come entirely from its own `.DAT` file
 (a `key=value` syntax, distinct from every other program's positional-
 field convention), and `egg`'s are hardwired into the source itself,
-confirmed by `EGG.TXT`'s own admission that they "can't be changed
-without recompiling." Both compute a nose-cone/egg-shaped turning
-profile and an incremental roughing schedule for either a square- or
+confirmed by the original author's own admission that they "can't
+be changed without recompiling." Both compute a nose-cone/egg-shaped
+turning profile and an incremental roughing schedule for either a
+square- or
 round-tipped tool; `egg`'s own asymmetric-ellipse formula has a subtle
 property worth documenting rather than treating as a bug: it bulges
 slightly past its own nominal semi-minor axis before reaching the
@@ -566,10 +568,11 @@ one operation on the raw data, rather than replicating the original's
 interactive session where each operation's result became the working
 coordinate set for the next. It selects its working points by 1-based
 index rather than mouse click. Its own `display()` function — fully
-implemented, matching `XYMWK.TXT`'s own description of what
-`reference`/`align` show, but never actually called anywhere in the
-original's `main()` — is wired up here, since a static CLI has no
-equivalent for the original's silent on-screen re-plot. Its `circ3`
+implemented, matching the original program's own accompanying
+documentation for what `reference`/`align` show, but never actually
+called anywhere in the original's `main()` — is wired up here, since
+a static CLI has no equivalent for the original's silent on-screen
+re-plot. Its `circ3`
 pitch-circle function carries a known, author-flagged, never-fixed gap
 ("no error checking... for the anomalous case in which the three
 points are colinear," with the author's own suggested fix in the same
@@ -599,7 +602,7 @@ this project's batch.
 `cutlist` (contributed by Mike Graham) is a different, generally
 better heuristic — largest piece first, cut from whichever open bar
 has the smallest sufficient remaining room — that the original author
-calls "definitely superior... runs faster" in `CUTS.TXT`, while also
+himself calls "definitely superior... runs faster", while also
 noting `cuts` sometimes still wins, hence converting both rather than
 picking a winner. `remnant` generalizes `cutlist`'s own heuristic to a
 heterogeneous set of available remnant lengths (not one uniform bar)
