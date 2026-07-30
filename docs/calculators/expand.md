@@ -46,12 +46,16 @@ Materials are listed, and selected by number, alphabetically
 one past the end of the list is offered as a "User input" option that
 prompts for a coefficient directly, exactly as the original does,
 reported back under the placeholder name `??` the original also uses
-for it.
+for it. Published values for a material's coefficient of thermal
+expansion vary considerably between sources; the shipped values are
+representative averages across several references rather than a
+single authoritative source, and a user with a precise value for
+their own material should enter it via the custom-value option
+instead.
 
 ## Worked Example
 
-No worked numeric example was included with the original program
-(`EXPAND.TXT` explains the formula but gives no sample run). As an
+No worked numeric example is available. As an
 independently verifiable check, this conversion's tests confirm that
 computing a length change and then recovering the temperature change
 from it reproduces the original temperature change, for several

@@ -86,8 +86,7 @@ increment tried in one run.
 
 ## Worked Example
 
-No worked numeric example with expected output was included with the
-original program (`DDH.TXT` describes the general workflow only). As
+No worked numeric example with expected output is available. As
 independently verifiable checks, this conversion's tests confirm
 `turnsRequired` against `divhead`'s own worked example (40:1 ratio, 14
 divisions gives 2 full turns plus 6/7); that `DDH.DAT`'s own default

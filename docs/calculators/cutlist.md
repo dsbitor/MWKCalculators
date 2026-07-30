@@ -10,15 +10,15 @@ One-dimensional stock-cutting via a "best fit decreasing" heuristic.
 The same 1D cutting-stock problem [cuts](cuts.md) solves — cutting a
 list of needed piece lengths from as few standard-length bars as
 possible — using a different heuristic, contributed by Mike Graham to
-address cases where `cuts`'s own greedy search falls short. Per
-`CUTS.TXT`, sort every needed piece largest first, then for each piece
-in turn, cut it from whichever already-opened bar currently has the
-smallest remaining room that still fits it, opening a new bar only
-when none of the already-opened ones do ("best fit decreasing").
+address cases where `cuts`'s own greedy search falls short. Sort every
+needed piece largest first, then for each piece in turn, cut it from
+whichever already-opened bar currently has the smallest remaining
+room that still fits it, opening a new bar only when none of the
+already-opened ones do ("best fit decreasing").
 
-`CUTS.TXT` quotes the original author calling this "definitely
+M. W. Klotz, the author of `cuts`, called this approach "definitely
 superior... runs faster, and is just generally a better way to do the
-problem" than his own `cuts` — but also that `cuts` sometimes still
+problem" than his own — but also noted that `cuts` sometimes still
 wins, hence converting both.
 
 ## Inputs

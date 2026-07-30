@@ -78,9 +78,18 @@ The tap drill formula for a cutting tap is
 published thread-form constants: `(6/8)×tan(60°) ≈ 1.299` for the
 American National (imperial, the default) or Standard (metric) thread
 form, or `(5/8)×tan(60°) ≈ 1.082` for the American Unified (imperial)
-or ISO (metric) thread form — see `DRILL.TXT`'s own lengthy discussion
-of why both exist and which one matches published tap-drill charts
-(the default, sharp-crested-thread assumption does). A thread-forming
+or ISO (metric) thread form. Most taps and dies cut sharp-crested
+threads; 1.299 is the constant that matches published tap-drill
+charts for sharp-crested threads, in both the imperial and metric
+systems. The smaller 1.082 constant accounts for the Unified thread
+form's deliberately truncated crest (a specification introduced
+around WWII for interchangeability among the Allies' manufacturers)
+and, despite being the value Machinery's Handbook itself lists for
+metric ISO threads, produces tap drill sizes measurably larger than
+published tables for both systems if the thread being cut is actually
+sharp-crested rather than truncated — hence 1.299 as this program's
+default in both cases, with 1.082 offered for the less common
+truncated-crest case. A thread-forming
 (roll) tap instead uses `diameter − 0.0068 × depth% / pitch`
 (imperial) or `(tapDiameterMM − depth% × pitchMM / 147.06) / 25.4`
 (metric) — a different, non-thread-form-constant-based formula, since
@@ -95,9 +104,9 @@ matching `DRILL.C`'s own `step()` exactly.
 
 ## Worked Example
 
-`DRILL.TXT` is entirely about the two thread-form constants and gives
-their values as "1.299..." and "1.082...", both reproduced exactly by
-this conversion's `sixEighthsTan60`/`fiveEighthsTan60`. As a further,
+The two thread-form constants, 1.299... and 1.082..., are both
+reproduced exactly by this conversion's
+`sixEighthsTan60`/`fiveEighthsTan60`. As a further,
 independently verifiable check, this conversion's tests confirm a
 1/4-20 UNC tap (0.25 in diameter, 20 threads/in, National thread form,
 75% depth of thread) computes a tap drill diameter that resolves to

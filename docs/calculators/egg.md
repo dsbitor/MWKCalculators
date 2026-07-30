@@ -7,20 +7,19 @@ Turned "egg" shape profile and roughing schedule.
 
 ## Purpose
 
-A tribute, per `EGG.TXT`, to a scene in Nevil Shute's novel "Trustee
-from the Toolroom," in which a model engineer turns metal eggs for a
-toy duck to sit on. Computes the profile of an asymmetrical-ellipse
-"egg" shape and an incremental turning schedule for roughing it out
-on a lathe.
+A tribute to a scene in Nevil Shute's novel "Trustee from the
+Toolroom," in which a model engineer turns metal eggs for a toy duck
+to sit on. Computes the profile of an asymmetrical-ellipse "egg" shape
+and an incremental turning schedule for roughing it out on a lathe.
 
 Unlike every other Tier 3 program, `egg` takes **no input at all**.
 `EGG.C` hardwires its own stock diameter, tool width, axial cutting
-step, and the egg shape's own semi-axes and asymmetry factor, and
-`EGG.TXT` says so directly: *"Since it's questionable just how many
-people want to turn metal eggs, I hardwired these values into the
-program. They can't be changed without recompiling."* This conversion
-keeps that behavior rather than inventing configurable input the
-original never had.
+step, and the egg shape's own semi-axes and asymmetry factor; the
+original author explained why directly: *"Since it's questionable
+just how many people want to turn metal eggs, I hardwired these
+values into the program. They can't be changed without recompiling."*
+This conversion keeps that behavior rather than inventing configurable
+input the original never had.
 
 ## Inputs
 
@@ -62,8 +61,8 @@ translating unused machinery.
 
 ## Worked Example
 
-`EGG.TXT` documents its own hardwired parameters directly: stock
-diameter 1", `b = 0.5"`, `a = 0.75"`, `k = 0.6`. This conversion's
+The original program's own hardwired parameters are stock diameter
+1", `b = 0.5"`, `a = 0.75"`, `k = 0.6`. This conversion's
 tests confirm those exact values are what `eggSemiAxes` computes; that
 the profile's radius at the pointed tip (`x=0`) is exactly zero; that
 at `x=a` the radius is exactly `b` (the hand-derivable point described

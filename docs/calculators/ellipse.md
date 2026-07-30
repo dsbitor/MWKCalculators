@@ -29,7 +29,9 @@ reporting each approximation's error relative to the reference.
 Eccentricity, flattening, area, the elliptic-integral perimeter, and
 three algebraic perimeter approximations (RMS, and two due to
 Ramanujan) each with its percentage error relative to the
-elliptic-integral value.
+elliptic-integral value. RMS is the least accurate of the three,
+with error reaching as high as 5% for an eccentric enough ellipse;
+Ramanujan's second approximation is the most accurate.
 
 ## Method
 
@@ -52,12 +54,11 @@ ramanujan2 = pi*(a+b)*(1 + 3x^2/(10+sqrt(4-3x^2)))
 
 ## Worked Example
 
-No worked numeric example was included with the original program
-(`ELLIPSE.TXT` explains the three approximations and their sources
-but includes no sample run). The elliptic-integral approximation's
-translation from the original was cross-checked independently via
-numerical integration of the standard definition before being used
-as an expected value in this conversion's tests. As a further,
+No worked numeric example is available. The elliptic-integral
+approximation's translation from the original was cross-checked
+independently via numerical integration of the standard definition
+before being used as an expected value in this conversion's tests.
+As a further,
 independently verifiable check: a circle is a degenerate ellipse
 (`a == b`) with an exactly known perimeter, `2*pi*r`; the elliptic
 integral and all three algebraic approximations agree with it and

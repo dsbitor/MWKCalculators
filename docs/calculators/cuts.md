@@ -10,9 +10,9 @@ from as few standard-length bars as possible.
 
 The classic 1D cutting-stock problem: given a standard bar length and
 a list of piece sizes and counts needed, work out how to cut them from
-as few bars as possible, minimizing waste. Per `CUTS.TXT`, this applies
-to any one-dimensional medium — pipe, lumber, wire, rebar — not just
-literal bars.
+as few bars as possible, minimizing waste. This applies to any
+one-dimensional medium — pipe, lumber, wire, rebar — not just literal
+bars.
 
 `cuts` is one of two different heuristics this project converts for
 the same problem (see also [cutlist](cutlist.md)): its own author's
@@ -49,11 +49,11 @@ more heavily toward larger pieces, since cutting big pieces first
 leaves more flexibility for the smaller ones later. This repeats one
 bar at a time until every piece is accounted for.
 
-Per `CUTS.TXT`'s own "Update 2/02" note, neither the default search
-nor `-zero-waste` always reaches the true theoretical optimum, and
-which one wins varies by problem — the original author explicitly
-recommends trying both, which is why this project converts both
-`cuts` and its sibling `cutlist` rather than picking one.
+Neither the default search nor `-zero-waste` always reaches the true
+theoretical optimum, and which one wins varies by problem — the
+original author explicitly recommends trying both, which is why this
+project converts both `cuts` and its sibling `cutlist` rather than
+picking one.
 
 Despite this program's original planning note describing it as
 "stateful" and needing an atomic-write persistence pattern, it turns
@@ -66,11 +66,11 @@ entirely.
 
 ## Worked Example
 
-`CUTS.TXT` includes a full worked example (its own shipped `CUTS.DAT`:
-a 6-unit bar, 7 piece sizes) with a complete expected cutting schedule
-and totals (waste 5.25, 12 bars), reproduced exactly by this
-conversion's tests. It also documents a second, smaller case (cutting
-`1,10 / 2,7 / 1,6 / 2,4` from 20-unit stock) specifically to
-demonstrate `-zero-waste`'s effect: the default search wastes 22 units
-across 3 bars, while `-zero-waste` finds a 2-bar, 2-unit-waste
-solution — both reproduced exactly by this conversion's tests.
+The original program's own shipped `CUTS.DAT` (a 6-unit bar, 7 piece
+sizes) has a complete expected cutting schedule and totals (waste
+5.25, 12 bars), reproduced exactly by this conversion's tests. A
+second, smaller case (cutting `1,10 / 2,7 / 1,6 / 2,4` from 20-unit
+stock) specifically demonstrates `-zero-waste`'s effect: the default
+search wastes 22 units across 3 bars, while `-zero-waste` finds a
+2-bar, 2-unit-waste solution — both reproduced exactly by this
+conversion's tests.

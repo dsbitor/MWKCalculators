@@ -22,9 +22,9 @@ position for blueprinting or building a two-stroke engine's ports.
 | Crank radius (throw) | 0.6 |
 | Angular increment, deg | 5.0 |
 
-No units are enforced — use any consistent system. `CROD.TXT`
-recommends a 5° interval for small engines, 1° for something engine
-enough to power a bike or car.
+No units are enforced — use any consistent system. A 5° interval is
+recommended for small engines, 1° for something big enough to power a
+bike or car.
 
 ## Output
 
@@ -48,11 +48,14 @@ equivalent for either in a static SVG image — rather than adapted;
 see `ai/plans/c-to-go-conversion-plan.md`'s Tier 3 "Graphics scope"
 resolution for the general policy this follows.
 
-`CROD.TXT` itself refers to the original's output file as
-`CROD.DAT`, but `CROD.C` actually writes `CROD.OUT` — a
+The original program's own documentation refers to its output file
+as `CROD.DAT`, but `CROD.C` actually writes `CROD.OUT` — a
 documentation/code mismatch in the original; noted here rather than
 silently perpetuated, though neither name is meaningful anymore now
 that the table prints straight to stdout instead of a file.
+
+For a worst-case snapshot at the piston's maximum lateral extension
+rather than a full crank-angle sweep, see [conrod](conrod.md).
 
 ## Worked Example
 

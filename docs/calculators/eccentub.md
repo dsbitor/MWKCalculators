@@ -13,9 +13,9 @@ offset from its stock's original centerline) in a lathe's 3-jaw
 chuck normally means packing one jaw with shim stock, which is
 fiddly to measure and not very stable.
 
-`ECCENTUB.C` implements a better method described in
-`ECCENT.TXT`: bore a tube to a sliding fit on the parent stock,
-mill a slot in the tube wide enough to pass one chuck jaw, and
+`ECCENTUB.C` implements a better method: bore a tube to a sliding
+fit on the parent stock, mill a slot in the tube wide enough to
+pass one chuck jaw, and
 clamp the assembly so one jaw seats on the parent stock through
 the slot while the other two seat on the tube's outer surface.
 This offsets the stock's centerline from the spindle axis by a
@@ -47,7 +47,7 @@ dtube = 2 * sqrt(7*R^2 - 9*R*r + 3*r^2)
 
 ## Worked Example
 
-No worked numeric example was included in `ECCENT.TXT`. As an
+No worked numeric example is available. As an
 independently verifiable check: an offset of zero means no
 eccentricity is being cut, so the formula must and does return
 the parent stock diameter unchanged, for any stock diameter.
