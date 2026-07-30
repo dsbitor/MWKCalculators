@@ -49,10 +49,10 @@ case.
 
 ## A correction to the original author's notes
 
-`UNGULA.TXT` states: "In the case where the sagitta equals the
-diameter of the cylinder, the somewhat complex formula reduces
-to a simple result: volume = (2/3)*h*r*r." That specific claim
-does not hold.
+The original author's own notes state: "In the case where the
+sagitta equals the diameter of the cylinder, the somewhat complex
+formula reduces to a simple result: volume = (2/3)*h*r*r." That
+specific claim does not hold.
 
 Verified independently, two ways: by working through the
 algebra by hand, and by brute-force numerical integration of the
@@ -61,8 +61,8 @@ across the full range of valid sagitta values:
 
 - At sagitta equal to the **radius** (half the diameter, a
   semicircular wet region), the volume is exactly
-  `(2/3)*height*radius^2`. This is the case the `.TXT` almost
-  certainly meant.
+  `(2/3)*height*radius^2`. This is the case the original notes
+  almost certainly meant.
 - At sagitta equal to the full **diameter** (the entire base is
   wet), the volume is `(pi/2)*height*radius^2`, which follows
   directly from the average depth (`height/2`, since depth rises

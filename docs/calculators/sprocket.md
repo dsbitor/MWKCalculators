@@ -42,12 +42,13 @@ odd teeth:  caliperFactor = pitchDiameter * cosd(90/teeth)
 even teeth: caliperDiameter = pitchDiameter - rollerDiameter
 ```
 
-`SPROCKET.TXT` describes the odd-tooth caliper factor as
-`pitchDiameter * cos(180/teeth)`, but the source code computes and
-prints `cos(90/teeth)`, which is also the standard Machinery's
-Handbook formula for this measurement; the `.TXT` appears to have a
-transcription slip (180 for 90). This conversion implements what the
-code (and the original `.EXE`) actually computes.
+The original program's own accompanying documentation describes the
+odd-tooth caliper factor as `pitchDiameter * cos(180/teeth)`, but the
+source code computes and prints `cos(90/teeth)`, which is also the
+standard Machinery's Handbook formula for this measurement; the
+documentation appears to have a transcription slip (180 for 90). This
+conversion implements what the code (and the original `.EXE`)
+actually computes.
 
 ## Worked Example
 

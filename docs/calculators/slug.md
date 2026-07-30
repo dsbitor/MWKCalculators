@@ -37,7 +37,9 @@ package.
 
 Number of holes, diameter of the drilling circle, the resulting
 web thickness, the angle between adjacent holes, and the
-chordal distance between them.
+chordal distance between them. [boltcirc](boltcirc.md) can lay
+out the same holes by x,y coordinates for a milling machine
+instead, given the drilling circle's diameter and hole count.
 
 ## Method
 
@@ -48,8 +50,8 @@ machining enlarges it out to size.
 
 ## Worked Example
 
-`SLUG.TXT` gives two full worked examples at the documented
-default inputs, varying only the drill diameter:
+The original program's own two full worked examples, both at the
+documented default inputs and varying only the drill diameter, are:
 
 | Drill diameter | Holes | Drilling circle | Web thickness | Angle | Chord |
 |---|---|---|---|---|---|

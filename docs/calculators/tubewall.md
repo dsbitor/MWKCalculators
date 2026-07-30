@@ -43,9 +43,9 @@ thickness = -0.5 * (B + sqrt(B^2 - 4*C))
 
 ## Worked Example
 
-`TUBEWALL.TXT` gives the author's own measurement of a piece of
-copper pipe at the program's default inputs, reporting a
-computed wall thickness of 0.0425, which this conversion
+The original author's own measurement of a piece of copper pipe at
+the program's default inputs reports a computed wall thickness of
+0.0425, which this conversion
 reproduces exactly. The same note also compares this method
 against a precision-ball micrometer (0.0422) and electronic
 caliper knife edges (0.0415) on the same pipe, for context on

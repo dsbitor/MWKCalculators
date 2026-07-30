@@ -17,10 +17,9 @@ at which the sun crosses the local meridian on a given date.
 
 The underlying algorithm is a long-term (1800-2100) trigonometric
 series from the 1978 "Almanac for Computers" (Nautical Almanac
-Office, US Naval Observatory) — the same one described in the
-original archive's own `SUN.TXT`, which quotes the Almanac's stated
-accuracy: sun position to 1E-4 AU, right ascension to 0.1 minute,
-declination to 1 arc minute.
+Office, US Naval Observatory), whose stated accuracy is sun position
+to 1E-4 AU, right ascension to 0.1 minute, declination to 1 arc
+minute, and distance to 5E-5 AU.
 
 ## Data setup
 
@@ -122,10 +121,9 @@ bug.
 
 ## Worked Example
 
-No worked numeric example with expected output was included with the
-original program; `SUN.TXT` only documents the underlying algorithm's
-source and accuracy claims. As independently verifiable checks, this
-conversion's tests confirm: the summer solstice's declination lands
+No worked numeric example with expected output is available. As
+independently verifiable checks, this conversion's tests confirm:
+the summer solstice's declination lands
 within 0.1° of the sun's well known +23.44° obliquity maximum (and
 the winter solstice within 0.1° of −23.44°); both equinoxes land
 within 0.5° of 0° declination; distance stays within 0.98-1.02 AU

@@ -18,10 +18,10 @@ them, will present that plate at a precise, calculable angle:
 d1 / d2 = (1 - sin(angle/2)) / (1 + sin(angle/2))
 ```
 
-An earlier version of this idea (`SINE.C`, not yet converted)
-used two cylinders of equal diameter connected by a pair of
-drilled links spaced a fixed distance apart. This version
-removes the link: with the two cylinders simply touching each
+An earlier version of this idea, [sine](sine.md), used two
+cylinders of equal diameter connected by a pair of drilled links
+spaced a fixed distance apart. This version removes the link:
+with the two cylinders simply touching each
 other, their own geometry provides the spacing, and only the
 two diameters need to be found.
 
@@ -44,9 +44,9 @@ d1 = d2 * (1 - sin(angle/2)) / (1 + sin(angle/2))
 
 ## Worked Example
 
-From the original author's own notes (`SINE.TXT`), describing
-the day this program was written: starting with a 0.75in
-cylinder on hand and wanting a 1.5 degree chamfer, the program
+From the original author's own notes, describing the day this
+program was written: starting with a 0.75in cylinder on hand and
+wanting a 1.5 degree chamfer, the program
 gave a required second cylinder diameter of 0.7306in (the
 author rounded to 0.731in for turning). This matches the
 documented default input exactly.

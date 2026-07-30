@@ -70,10 +70,13 @@ already exceeding the target abandons that combination immediately
 rather than finishing the addition, the same short-circuit the
 original uses. `coding-style.md` Rule 2 replaces the original's
 interactive keypress abort (there is no keyboard to poll here) with
-an explicit evaluation cap: `SPACEBLK.TXT` documents that a full
-5-deep search of an 81-block set examines 3.5 billion combinations,
-so the cap exists to stop well short of that if no solution turns up,
-rather than running effectively forever.
+an explicit evaluation cap: a full 5-deep search of an 81-block set
+examines 3.5 billion combinations, so the cap exists to stop well
+short of that if no solution turns up, rather than running
+effectively forever. For a spacer requiring more than a handful of
+blocks, manually subtracting off whichever large whole-value blocks
+are obviously needed and solving only for the small remainder
+searches far fewer combinations and finds a solution much faster.
 
 ## Worked Example
 

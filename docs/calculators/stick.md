@@ -52,10 +52,8 @@ searching indefinitely if it's ever exceeded.
 
 ## Worked Example
 
-No fully worked numeric example was included with the original
-program (`STICK.TXT` explains the technique and includes
-correspondence about a possible future improvement, but no
-sample run). As an independently verifiable check: a thread
-pitch exactly double the leadscrew pitch converges on the first
+No fully worked numeric example is available. As an independently
+verifiable check: a thread pitch exactly double the leadscrew pitch
+converges on the first
 candidate distance (one leadscrew pitch), confirmed in this
 conversion's tests.

@@ -123,9 +123,9 @@ three below it — true "engineering notation," matching the
 
 ## Worked Example
 
-`UNIT.TXT` ships a full worked tutorial with exact expected numeric
-output for several conversions, which this conversion's tests
-reproduce directly against the real shipped `reference.db`: 60
+The original program's own worked tutorial gives exact expected
+numeric output for several conversions, reproduced directly by this
+conversion's tests against the real shipped `reference.db`: 60
 mph = 88 fps = 26.8224 m/s (checked both spelled out and using the
 `MPH`/`FPS` abbreviations, and again with an implied value of 1); 10
 lb/ft³ = 160.185 mg/cm³; 20 ft² = 2880 in²; 1 pound (mass) = 0.453592
