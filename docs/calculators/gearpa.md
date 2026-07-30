@@ -62,8 +62,8 @@ on `spanTeethCount` for the exact boundary.
 
 ## Worked Example
 
-`GEARPA.TXT` includes two complete worked examples, both reproduced
-exactly in this conversion's tests:
+The original program's own two complete worked examples are both
+reproduced exactly in this conversion's tests:
 
 - 30 teeth, DP 6: 14.5° spans 3 teeth at 1.2941 in; 20° spans 4 teeth
   at 1.7921 in.

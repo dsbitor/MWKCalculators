@@ -76,11 +76,10 @@ deepest.
 
 ## Worked Example
 
-No worked numeric example with expected output was included with the
-original program (`OGIVE.TXT` only explains the shape and points to
-an external mathematical reference). As independently verifiable
-checks, this conversion's tests confirm two defining geometric
-properties of a tangent ogive using the shipped example's own
+No worked numeric example with expected output is available. As
+independently verifiable checks, this conversion's tests confirm two
+defining geometric properties of a tangent ogive using the shipped
+example's own
 dimensions (0.5 diameter, 1.5 length, caliber 3): the radius at the
 very tip is exactly zero (a sharp point), and the radius at the
 ogive's own length exactly equals the stock radius (a smooth blend

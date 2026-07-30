@@ -50,16 +50,17 @@ being read as plain atmospheres; only `"100kpascal"` (or anything
 else containing `"pas"`) is actually recognized as kilopascals. This
 is almost certainly an inconsistency between the prompt text and the
 check in the original, but it's what the original program actually
-does, so it's preserved here rather than silently corrected.
+does, so it's preserved here rather than silently corrected — and the
+original author's own accompanying documentation states the opposite,
+that "people in metric countries can enter '100kpa'", which is
+verifiably not what the shipped code actually does.
 
 ## Worked Example
 
-No worked numeric example was included with the original program
-(`GAS.TXT` explains the law and units but includes no sample run,
-though it does state that one mole occupies 22.4140 liters at
-standard conditions). As an independently verifiable check: one mole
-of gas at standard conditions (0°C, 1 atmosphere) is confirmed to
-occupy approximately 22.4140 liters, a well known physical constant
+No worked numeric example is available. As an independently
+verifiable check: one mole of gas at standard conditions (0°C, 1
+atmosphere) is confirmed to occupy approximately 22.4140 liters, a
+well known physical constant
 independent of this program's own formula; confirmed in this
 conversion's tests, along with an internal consistency check that
 solving for each of the four quantities in turn, given the other

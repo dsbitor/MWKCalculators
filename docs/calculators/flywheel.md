@@ -59,10 +59,7 @@ with no iteration cap of its own).
 
 ## Worked Example
 
-No worked numeric example was included with the original program
-(`FLYWHEEL.TXT` explains the geometry and mentions that "the first
-part of the solution obtained with the defaults" produces messy
-angles, but includes no sample run). As an independently verifiable
+No worked numeric example is available. As an independently verifiable
 check: whatever phi the search returns must make the transcendental
 equation's own residual approximately zero — the defining property
 of the root search, not a re-run of it — confirmed for the

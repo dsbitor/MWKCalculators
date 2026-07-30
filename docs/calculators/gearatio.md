@@ -75,8 +75,7 @@ user's input against.
 
 ## Worked Example
 
-No worked numeric example was included with the original program
-(`GEARATIO.TXT` is a general description only). As independently
+No worked numeric example is available. As independently
 verifiable checks, this conversion's tests confirm an exact single-pair
 ratio present in the shipped gear set (24:48 = 0.5) is found, that
 every reported solution's stages actually multiply out to its recorded

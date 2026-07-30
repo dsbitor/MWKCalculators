@@ -56,8 +56,8 @@ arbitrary decimal rather than reduce an already-exact ratio.
 
 ## Worked Example
 
-`LVERN.TXT` includes two complete worked examples, both reproduced
-exactly in this conversion's tests:
+The original program's own two complete worked examples are both
+reproduced exactly in this conversion's tests:
 
 1. A one-inch major division split into eighths, with a vernier
    resolving thirty-seconds: main division length 0.1250 (1/8), 4

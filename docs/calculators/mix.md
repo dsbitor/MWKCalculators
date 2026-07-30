@@ -97,8 +97,8 @@ original does, not a warning about anything having gone wrong.
 
 ## Worked Example
 
-From `MIX.TXT`: entering `+3.2in` then `+1.5cm` (default unit `in`,
-`decimals=6`) produces:
+Entering `+3.2in` then `+1.5cm` (default unit `in`, `decimals=6`)
+produces:
 
 ```
 0.096280 m
@@ -121,10 +121,14 @@ accumulator to just enough places to round-trip exactly:
  3 & 25/32 in (error = -0.2454 %)
 ```
 
-Both are reproduced exactly by this conversion's tests (the inch and
+The accumulator values and the mixed feet-and-fraction display are
+both reproduced exactly by this conversion's tests (the inch and
 meter accumulators are checked against `3.2 + 1.5/2.54` computed
-independently, rather than against the doc's rounded digits). Squaring
-a length (multiplying a 5.25 in accumulator by itself, matching the
-`MIX.TXT` area example) is checked to double the dimension exponent
-to 2 and to match `5.25 * 5.25` converted to each unit's own squared
-scale factor.
+independently, rather than against the doc's rounded digits). The
+`-0.2454%` error figure shown above is independently verifiable as
+`(3.78125 − 3.2 − 1.5/2.54) / (3.2 + 1.5/2.54)`, the fractional
+display's own deviation from the precise accumulator value, though it
+is not separately asserted in this conversion's own test suite.
+Squaring a length (multiplying a 5.25 in accumulator by itself) is
+checked to double the dimension exponent to 2 and to match
+`5.25 * 5.25` converted to each unit's own squared scale factor.

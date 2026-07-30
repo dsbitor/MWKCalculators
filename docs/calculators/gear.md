@@ -56,10 +56,10 @@ file-save-then-page convenience, the same approach used for `loan`
 
 ## Worked Example
 
-No numeric worked example was included as a `.TXT` file, though
-`GEAR.TXT` confirms the documented defaults are Cooper's own example
-values. As an independently verifiable check: the base circle radius
-is, by definition, the pitch radius times the cosine of the pressure
+No numeric worked example is available beyond the documented default
+inputs, which match Cooper's own published example. As an
+independently verifiable check: the base circle radius is, by
+definition, the pitch radius times the cosine of the pressure
 angle, and the center distance is exactly half the sum of the two
 gears' pitch diameters (their pitch circles are tangent where they
 mesh); both confirmed in this conversion's tests as identities

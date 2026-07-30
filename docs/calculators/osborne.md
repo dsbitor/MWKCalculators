@@ -45,8 +45,8 @@ Each iteration's `nextOffset` becomes the next iteration's
 
 ## Worked Example
 
-`OSBORNE.TXT` gives the author's own example run at the
-program's default inputs (diameter 2, initial offset 0.1):
+The original author's own example run at the program's default
+inputs (diameter 2, initial offset 0.1):
 
 | Iteration | del1 | del2 | error |
 |---|---|---|---|
