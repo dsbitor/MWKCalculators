@@ -4,7 +4,6 @@ Turned profile roughing schedule for an arbitrary, user-specified shape.
 
 **Converted from:** `PROFILE.C` (M. W. Klotz), `MWKC/WorkshopUtilities/profile.zip`
 **Go source:** `MWKGo/profile/profile.go`
-**Original documentation:** `PROFILE.TXT`, inside `MWKC/WorkshopUtilities/profile.zip` (not included in this conversion)
 
 ## Purpose
 

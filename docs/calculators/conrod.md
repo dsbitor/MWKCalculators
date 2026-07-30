@@ -5,7 +5,6 @@ Connecting rod to cylinder wall clearance.
 **Converted from:** `CONROD.C` (M. W. Klotz, with Tom Roach),
 `MWKC/WorkshopUtilities/conrod.zip`
 **Go source:** `MWKGo/conrod/conrod.go`
-**Original documentation:** `CONROD.TXT`, inside `MWKC/WorkshopUtilities/conrod.zip` (not included in this conversion)
 
 ## Purpose
 

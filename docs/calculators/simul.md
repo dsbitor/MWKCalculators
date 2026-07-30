@@ -4,7 +4,6 @@ Simultaneous linear equation solver.
 
 **Converted from:** `SIMUL.C` (M. W. Klotz), `MWKC/Math/simul.zip`
 **Go source:** `MWKGo/simul/simul.go`
-**Original documentation:** `SIMUL.TXT`, inside `MWKC/Math/simul.zip` (not included in this conversion)
 
 ## Purpose
 

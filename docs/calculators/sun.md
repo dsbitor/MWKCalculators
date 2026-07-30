@@ -4,7 +4,6 @@ Solar position, equation of time, sunrise/sunset, and sundial geometry.
 
 **Converted from:** `SUN.C` (M. W. Klotz), `MWKC/Misc/sun.zip`
 **Go source:** `MWKGo/sun/sun.go`
-**Original documentation:** `SUN.TXT`, inside `MWKC/Misc/sun.zip` (not included in this conversion)
 
 ## Purpose
 

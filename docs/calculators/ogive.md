@@ -4,7 +4,6 @@ Tangent ogive nose-cone profile and turning schedule.
 
 **Converted from:** `OGIVE.C` (M. W. Klotz), `MWKC/WorkshopUtilities/ogive.zip`
 **Go source:** `MWKGo/ogive/ogive.go`
-**Original documentation:** `OGIVE.TXT`, inside `MWKC/WorkshopUtilities/ogive.zip` (not included in this conversion)
 
 ## Purpose
 

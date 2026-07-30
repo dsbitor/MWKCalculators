@@ -5,7 +5,6 @@ Tube size for turning offset eccentrics in a 3-jaw chuck.
 **Converted from:** `ECCENTUB.C` (M. W. Klotz, 02/01),
 `MWKC/WorkshopUtilities/eccent.zip`
 **Go source:** `MWKGo/eccentub/eccentub.go`
-**Original documentation:** `ECCENT.TXT`, inside `MWKC/WorkshopUtilities/eccent.zip` (not included in this conversion)
 
 ## Purpose
 

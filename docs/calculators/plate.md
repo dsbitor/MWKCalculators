@@ -6,7 +6,6 @@ stock.
 **Converted from:** `PLATE.C` (M. W. Klotz, 6/03),
 `MWKC/WorkshopUtilities/slug.zip`
 **Go source:** `MWKGo/plate/plate.go`
-**Original documentation:** `SLUG.TXT`, inside `MWKC/WorkshopUtilities/slug.zip` (not included in this conversion)
 
 ## Purpose
 

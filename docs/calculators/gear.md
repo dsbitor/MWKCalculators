@@ -6,7 +6,6 @@ Spur gear dimensions.
 Reference: John A. Cooper, "Spur Gears and Pinions", Machinist's
 Workshop, 4/99, Vol. 12, No. 2, pg. 8.
 **Go source:** `MWKGo/gear/gear.go`
-**Original documentation:** `GEAR.TXT`, inside `MWKC/WorkshopUtilities/gear.zip` (not included in this conversion)
 
 ## Purpose
 

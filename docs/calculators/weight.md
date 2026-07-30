@@ -4,7 +4,6 @@ Weight of standard shapes from volume and material density.
 
 **Converted from:** `WEIGHT.C` (M. W. Klotz), `MWKC/WorkshopUtilities/weight.zip`
 **Go source:** `MWKGo/weight/weight.go`
-**Original documentation:** `WEIGHT.TXT`, inside `MWKC/WorkshopUtilities/weight.zip` (not included in this conversion)
 
 ## Purpose
 

@@ -6,7 +6,6 @@ ANSI standard roller chain sprocket dimensions.
 `MWKC/WorkshopUtilities/sprocket.zip` (the same archive as `chain`,
 converted in Tier 1 group 4)
 **Go source:** `MWKGo/sprocket/sprocket.go`
-**Original documentation:** `SPROCKET.TXT`, inside `MWKC/WorkshopUtilities/sprocket.zip` (not included in this conversion)
 
 ## Purpose
 

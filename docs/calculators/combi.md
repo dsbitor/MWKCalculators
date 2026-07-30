@@ -4,7 +4,6 @@ Enumerate all combinations of N things taken M at a time.
 
 **Converted from:** `COMBI.C` (M. W. Klotz), `MWKC/Math/combi.zip`
 **Go source:** `MWKGo/combi/combi.go`
-**Original documentation:** `COMBI.TXT`, inside `MWKC/Math/combi.zip` (not included in this conversion)
 
 ## Purpose
 

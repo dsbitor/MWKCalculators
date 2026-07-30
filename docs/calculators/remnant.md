@@ -5,7 +5,6 @@ lengths, accounting for saw kerf.
 
 **Converted from:** `REMNANT.C` (M. W. Klotz), `MWKC/WorkshopUtilities/cuts.zip`
 **Go source:** `MWKGo/remnant/remnant.go`
-**Original documentation:** `CUTS.TXT`, inside `MWKC/WorkshopUtilities/cuts.zip` (not included in this conversion)
 
 ## Purpose
 

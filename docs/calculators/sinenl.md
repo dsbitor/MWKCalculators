@@ -5,7 +5,6 @@ Sine bar made from two touching cylinders, no connecting link.
 **Converted from:** `SINENL.C` (M. W. Klotz, 5/01),
 `MWKC/WorkshopUtilities/sine.zip`
 **Go source:** `MWKGo/sinenl/sinenl.go`
-**Original documentation:** `SINE.TXT`, inside `MWKC/WorkshopUtilities/sine.zip` (not included in this conversion)
 
 ## Purpose
 

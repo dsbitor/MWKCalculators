@@ -5,7 +5,6 @@ Sine bar made from two cylinders connected by drilled links.
 **Converted from:** `SINE.C` (M. W. Klotz, 11/98),
 `MWKC/WorkshopUtilities/sine.zip`
 **Go source:** `MWKGo/sine/sine.go`
-**Original documentation:** `SINE.TXT`, inside `MWKC/WorkshopUtilities/sine.zip` (not included in this conversion)
 
 ## Purpose
 

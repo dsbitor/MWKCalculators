@@ -4,7 +4,6 @@ Perfect gas law (PV = nRT) calculator.
 
 **Converted from:** `GAS.C`, `MWKC/WorkshopUtilities/gas.zip`
 **Go source:** `MWKGo/gas/gas.go`
-**Original documentation:** `GAS.TXT`, inside `MWKC/WorkshopUtilities/gas.zip` (not included in this conversion)
 
 ## Purpose
 

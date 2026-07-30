@@ -4,7 +4,6 @@ Calibrate a linear scale.
 
 **Converted from:** `CALIBRAT.C` (M. W. Klotz), `MWKC/Math/calibrat.zip`
 **Go source:** `MWKGo/calibrat/calibrat.go`
-**Original documentation:** `CALIBRAT.TXT`, inside `MWKC/Math/calibrat.zip` (not included in this conversion)
 
 ## Purpose
 

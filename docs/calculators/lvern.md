@@ -5,7 +5,6 @@ Linear vernier scale design.
 **Converted from:** `LVERN.C` (M. W. Klotz, 11/98),
 `MWKC/WorkshopUtilities/lvern.zip`
 **Go source:** `MWKGo/lvern/lvern.go`
-**Original documentation:** `LVERN.TXT`, inside `MWKC/WorkshopUtilities/lvern.zip` (not included in this conversion)
 
 ## Purpose
 

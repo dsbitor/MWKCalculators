@@ -5,7 +5,6 @@ Three-wire thread measurement.
 **Converted from:** `3WIRE.C`, `MWKC/WorkshopUtilities/3wire.zip`.
 Reference: Machinery's Handbook, 23rd Edition, pg. 1498.
 **Go source:** `MWKGo/3wire/3wire.go`
-**Original documentation:** `3WIRE.TXT`, inside `MWKC/WorkshopUtilities/3wire.zip` (not included in this conversion)
 
 ## Purpose
 

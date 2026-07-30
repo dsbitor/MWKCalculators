@@ -4,7 +4,6 @@ Calculations for various sized holes arranged on a bolt circle.
 
 **Converted from:** `VREV.C` (M. W. Klotz), `MWKC/WorkshopUtilities/vrev.zip`
 **Go source:** `MWKGo/vrev/vrev.go`
-**Original documentation:** `VREV.TXT`, inside `MWKC/WorkshopUtilities/vrev.zip` (not included in this conversion)
 
 ## Purpose
 

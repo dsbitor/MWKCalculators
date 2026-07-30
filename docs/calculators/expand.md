@@ -4,7 +4,6 @@ Material thermal expansion calculations.
 
 **Converted from:** `EXPAND.C` (M. W. Klotz), `MWKC/WorkshopUtilities/expand.zip`
 **Go source:** `MWKGo/expand/expand.go`
-**Original documentation:** `EXPAND.TXT`, inside `MWKC/WorkshopUtilities/expand.zip` (not included in this conversion)
 
 ## Purpose
 

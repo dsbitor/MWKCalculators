@@ -5,7 +5,6 @@ Gear pressure angle estimation by chordal span.
 **Converted from:** `GEARPA.C`, `MWKC/WorkshopUtilities/gearpa.zip`.
 Reference: Machinery's Handbook, "Checking Gear Sizes".
 **Go source:** `MWKGo/gearpa/gearpa.go`
-**Original documentation:** `GEARPA.TXT`, inside `MWKC/WorkshopUtilities/gearpa.zip` (not included in this conversion)
 
 ## Purpose
 

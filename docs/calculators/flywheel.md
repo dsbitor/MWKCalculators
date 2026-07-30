@@ -4,7 +4,6 @@ Tapered spoke flywheel calculations.
 
 **Converted from:** `FLYWHEEL.C`, `MWKC/WorkshopUtilities/flywheel.zip`
 **Go source:** `MWKGo/flywheel/flywheel.go`
-**Original documentation:** `FLYWHEEL.TXT`, inside `MWKC/WorkshopUtilities/flywheel.zip` (not included in this conversion)
 
 ## Purpose
 

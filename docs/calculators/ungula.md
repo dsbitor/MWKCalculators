@@ -5,7 +5,6 @@ glass).
 
 **Converted from:** `UNGULA.C` (M. W. Klotz, 6/04), `MWKC/Math/ungula.zip`
 **Go source:** `MWKGo/ungula/ungula.go`
-**Original documentation:** `UNGULA.TXT`, inside `MWKC/Math/ungula.zip` (not included in this conversion)
 
 ## Purpose
 

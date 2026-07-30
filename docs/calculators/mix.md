@@ -4,7 +4,6 @@ Mixed dimensional units four-function calculator.
 
 **Converted from:** `MIX.C` (M. W. Klotz), `MWKC/Math/mix.zip`
 **Go source:** `MWKGo/mix/mix.go`
-**Original documentation:** `MIX.TXT`, inside `MWKC/Math/mix.zip` (not included in this conversion)
 
 ## Purpose
 

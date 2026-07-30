@@ -4,7 +4,6 @@ Circular Error Probable (CEP).
 
 **Converted from:** `CEP.C`, `MWKC/Math/cep.zip`
 **Go source:** `MWKGo/cep/cep.go`
-**Original documentation:** `CEP.TXT`, inside `MWKC/Math/cep.zip` (not included in this conversion)
 
 ## Purpose
 

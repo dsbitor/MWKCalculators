@@ -6,7 +6,6 @@ Thread-chasing carriage repositioning distance.
 `MWKC/WorkshopUtilities/stick.zip`. Peter Lott's technique
 (Machinist's Workshop, 6/01, pg. 18).
 **Go source:** `MWKGo/stick/stick.go`
-**Original documentation:** `STICK.TXT`, inside `MWKC/WorkshopUtilities/stick.zip` (not included in this conversion)
 
 ## Purpose
 
