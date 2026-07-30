@@ -1,22 +1,29 @@
 # mwkGo
 
-mwkGo converts Marv Klotz's DOS shop-calculator programs
-(`MWKC/Math`, `MWKC/Misc`, `MWKC/WorkshopUtilities`, each
+mwkGo converts Marv Klotz's DOS shop-calculator programs (each
 originally a standalone DOS C program) into equivalent Go
 programs that build and run on macOS, Linux, and Windows 10 or
 later. Each original program becomes one Go program under
 `MWKGo/<name>/`, keeping the original program's calculation,
 worked examples, and known quirks intact rather than redesigning
 the tool. Conversion is complete: `MWKGo/` contains 124 Go
-programs (a handful of the
-118 original archives bundled more than one C program, for
-example `cuts.zip`'s `CUTS.C`, `CUTLIST.C`, and `REMNANT.C`,
-each converted separately). Three original programs have no Go
-equivalent; see "Excluded" in `docs/calculators.md` for why. The
-full per-tier list of every converted program, its purpose, and
-its worked example is `docs/calculators.md`; the conversion's
-own history and the decisions behind it are in
-`ai/plans/c-to-go-conversion-plan.md`.
+programs (a handful of the 118 original archives bundled more
+than one C program, for example `cuts.zip`'s `CUTS.C`,
+`CUTLIST.C`, and `REMNANT.C`, each converted separately). Three
+original programs have no Go equivalent; see "Excluded" in
+`docs/calculators.md` for why. The full per-tier list of every
+converted program, its purpose, and its worked example is
+`docs/calculators.md`.
+
+**Published at [github.com/dsbitor/MWKCalculators](https://github.com/dsbitor/MWKCalculators).**
+This repository is a deliberate subset of a larger project
+(this README, the Go source under `MWKGo/`, and `docs/`) whose
+primary development happens in a separate Fossil-managed
+repository, not published here. That upstream repository also
+holds the original DOS C source these programs were converted
+from, the conversion plan and its recorded decisions, and this
+project's own engineering standards — none of which this GitHub
+copy needs in order to build, run, or be understood on its own.
 
 ## Build and install
 
@@ -181,5 +188,6 @@ an explanation of what each flag does.
 
 This project's engineering standards (Go style, testing,
 logging, SQLite usage, Fossil workflow, documentation and
-Markdown conventions) live in `ai/context/`; `CLAUDE.md` lists
-which files apply and in what order.
+Markdown conventions) live in the upstream Fossil repository's
+own `ai/context/` directory, not in this GitHub copy — see
+"Published at" above.
