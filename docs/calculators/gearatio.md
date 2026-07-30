@@ -4,6 +4,7 @@ Find a chain of gears matching a required ratio.
 
 **Converted from:** `GEARATIO.C` (M. W. Klotz), `MWKC/WorkshopUtilities/gearatio.zip`
 **Go source:** `MWKGo/gearatio/gearatio.go`
+**Original documentation:** `GEARATIO.TXT`, inside `MWKC/WorkshopUtilities/gearatio.zip` (not included in this conversion)
 
 ## Purpose
 

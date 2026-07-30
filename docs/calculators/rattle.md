@@ -6,6 +6,7 @@ stick-and-rattle technique.
 **Converted from:** `RATTLE.C` (M. W. Klotz, 11/99),
 `MWKC/WorkshopUtilities/rattle.zip`
 **Go source:** `MWKGo/rattle/rattle.go`
+**Original documentation:** `RATTLE.TXT`, inside `MWKC/WorkshopUtilities/rattle.zip` (not included in this conversion)
 
 ## Purpose
 

@@ -4,6 +4,7 @@ General-purpose units conversion.
 
 **Converted from:** `UNIT.C` (M. W. Klotz), `MWKC/Misc/unit.zip`
 **Go source:** `MWKGo/unit/unit.go`
+**Original documentation:** `UNIT.TXT`, inside `MWKC/Misc/unit.zip` (not included in this conversion)
 
 ## Purpose
 

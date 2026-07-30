@@ -4,6 +4,7 @@ Lathe change gear calculations.
 
 **Converted from:** `CHANGE.C` (M. W. Klotz), `MWKC/WorkshopUtilities/change.zip`
 **Go source:** `MWKGo/change/change.go`
+**Original documentation:** `CHANGE.TXT`, inside `MWKC/WorkshopUtilities/change.zip` (not included in this conversion)
 
 ## Purpose
 

@@ -4,6 +4,7 @@ Plate cam profile design.
 
 **Converted from:** `CAM.C` (M. W. Klotz), `MWKC/WorkshopUtilities/cam.zip`
 **Go source:** `MWKGo/cam/cam.go`
+**Original documentation:** `CAM.TXT`, inside `MWKC/WorkshopUtilities/cam.zip` (not included in this conversion)
 
 ## Purpose
 

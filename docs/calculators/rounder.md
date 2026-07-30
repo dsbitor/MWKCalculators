@@ -5,6 +5,7 @@ Ball end mill rounding-over table.
 **Converted from:** `ROUNDER.C` (M. W. Klotz),
 `MWKC/WorkshopUtilities/rounder.zip`
 **Go source:** `MWKGo/rounder/rounder.go`
+**Original documentation:** `ROUNDER.TXT`, inside `MWKC/WorkshopUtilities/rounder.zip` (not included in this conversion)
 
 ## Purpose
 

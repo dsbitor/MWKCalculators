@@ -5,6 +5,7 @@ Tube wall thickness from an outside micrometer reading.
 **Converted from:** `TUBEWALL.C` (M. W. Klotz, 2/02),
 `MWKC/WorkshopUtilities/tubewall.zip`
 **Go source:** `MWKGo/tubewall/tubewall.go`
+**Original documentation:** `TUBEWALL.TXT`, inside `MWKC/WorkshopUtilities/tubewall.zip` (not included in this conversion)
 
 ## Purpose
 

@@ -5,6 +5,7 @@ Flat sheet-metal pattern for a conical frustum.
 **Converted from:** `CONE.C` (M. W. Klotz, 10-11/01),
 `MWKC/WorkshopUtilities/cone.zip`
 **Go source:** `MWKGo/cone/cone.go`
+**Original documentation:** `CONE.TXT`, inside `MWKC/WorkshopUtilities/cone.zip` (not included in this conversion)
 
 ## Purpose
 

@@ -4,6 +4,7 @@ Turned "egg" shape profile and roughing schedule.
 
 **Converted from:** `EGG.C` (M. W. Klotz), `MWKC/WorkshopUtilities/egg.zip`
 **Go source:** `MWKGo/egg/egg.go`
+**Original documentation:** `EGG.TXT`, inside `MWKC/WorkshopUtilities/egg.zip` (not included in this conversion)
 
 ## Purpose
 

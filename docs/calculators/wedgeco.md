@@ -4,6 +4,7 @@ Volume of a conical wedge.
 
 **Converted from:** `WEDGECO.C` (M. W. Klotz), `MWKC/Math/wedgeco.zip`
 **Go source:** `MWKGo/wedgeco/wedgeco.go`
+**Original documentation:** `WEDGECO.TXT`, inside `MWKC/Math/wedgeco.zip` (not included in this conversion)
 
 ## Purpose
 

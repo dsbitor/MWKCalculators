@@ -4,6 +4,7 @@ Ellipse eccentricity, area, and perimeter.
 
 **Converted from:** `ELLIPSE.C` (M. W. Klotz), `MWKC/Math/ellipse.zip`
 **Go source:** `MWKGo/ellipse/ellipse.go`
+**Original documentation:** `ELLIPSE.TXT`, inside `MWKC/Math/ellipse.zip` (not included in this conversion)
 
 ## Purpose
 

@@ -4,6 +4,7 @@ Incremental sphere turning on a lathe.
 
 **Converted from:** `BALLCUT.C`, `MWKC/WorkshopUtilities/ballcut.zip`
 **Go source:** `MWKGo/ballcut/ballcut.go`
+**Original documentation:** `BALLCUT.TXT`, inside `MWKC/WorkshopUtilities/ballcut.zip` (not included in this conversion)
 
 ## Purpose
 

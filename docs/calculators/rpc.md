@@ -5,6 +5,7 @@ RPN (Reverse Polish Notation) stack-oriented scientific calculator.
 
 **Converted from:** `RPC.C` (M. W. Klotz), `MWKC/Math/rpc.zip` **Go source:**
 `MWKGo/rpc/rpc.go`
+**Original documentation:** `RPC.TXT`, inside `MWKC/Math/rpc.zip` (not included in this conversion)
 
 Purpose
 -------

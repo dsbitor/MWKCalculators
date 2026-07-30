@@ -5,6 +5,7 @@ Sinebar-like protractor.
 **Converted from:** `PROTRAC.C` (M. W. Klotz),
 `MWKC/WorkshopUtilities/protrac.zip`
 **Go source:** `MWKGo/protrac/protrac.go`
+**Original documentation:** `PROTRAC.TXT`, inside `MWKC/WorkshopUtilities/protrac.zip` (not included in this conversion)
 
 ## Purpose
 

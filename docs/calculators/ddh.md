@@ -4,6 +4,7 @@ Differential dividing head calculations.
 
 **Converted from:** `DDH.C` (M. W. Klotz), `MWKC/WorkshopUtilities/ddh.zip`
 **Go source:** `MWKGo/ddh/ddh.go`
+**Original documentation:** `DDH.TXT`, inside `MWKC/WorkshopUtilities/ddh.zip` (not included in this conversion)
 
 ## Purpose
 

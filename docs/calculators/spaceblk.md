@@ -4,6 +4,7 @@ Space block selection utility.
 
 **Converted from:** `SPACEBLK.C` (M. W. Klotz), `MWKC/WorkshopUtilities/spaceblk.zip`
 **Go source:** `MWKGo/spaceblk/spaceblk.go`
+**Original documentation:** `SPACEBLK.TXT`, inside `MWKC/WorkshopUtilities/spaceblk.zip` (not included in this conversion)
 
 ## Purpose
 

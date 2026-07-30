@@ -4,6 +4,7 @@ Gudgeon (wrist) pin position for a slider-crank mechanism.
 
 **Converted from:** `CROD.C` (M. W. Klotz), `MWKC/WorkshopUtilities/crod.zip`
 **Go source:** `MWKGo/crod/crod.go`
+**Original documentation:** `CROD.TXT`, inside `MWKC/WorkshopUtilities/crod.zip` (not included in this conversion)
 
 ## Purpose
 

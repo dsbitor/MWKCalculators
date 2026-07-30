@@ -6,6 +6,7 @@ round stock.
 **Converted from:** `OSBORNE.C` (M. W. Klotz, 11/99),
 `MWKC/WorkshopUtilities/osborne.zip`
 **Go source:** `MWKGo/osborne/osborne.go`
+**Original documentation:** `OSBORNE.TXT`, inside `MWKC/WorkshopUtilities/osborne.zip` (not included in this conversion)
 
 ## Purpose
 

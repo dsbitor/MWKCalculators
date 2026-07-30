@@ -5,6 +5,7 @@ Chain-drilling layout for opening a large hole in plate stock.
 **Converted from:** `SLUG.C` (M. W. Klotz, 10/00),
 `MWKC/WorkshopUtilities/slug.zip`
 **Go source:** `MWKGo/slug/slug.go`
+**Original documentation:** `SLUG.TXT`, inside `MWKC/WorkshopUtilities/slug.zip` (not included in this conversion)
 
 ## Purpose
 

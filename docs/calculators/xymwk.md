@@ -5,6 +5,7 @@ align, distance, and pitch circle.
 
 **Converted from:** `XYMWK.C` (M. W. Klotz), `MWKC/Math/xymwk.zip`
 **Go source:** `MWKGo/xymwk/xymwk.go`
+**Original documentation:** `XYMWK.TXT`, inside `MWKC/Math/xymwk.zip` (not included in this conversion)
 
 ## Purpose
 

@@ -5,6 +5,7 @@ from as few standard-length bars as possible.
 
 **Converted from:** `CUTS.C` (M. W. Klotz), `MWKC/WorkshopUtilities/cuts.zip`
 **Go source:** `MWKGo/cuts/cuts.go`
+**Original documentation:** `CUTS.TXT`, inside `MWKC/WorkshopUtilities/cuts.zip` (not included in this conversion)
 
 ## Purpose
 

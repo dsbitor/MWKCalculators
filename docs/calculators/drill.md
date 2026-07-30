@@ -4,6 +4,7 @@ Drill size lookup, tap drill, and step-drilling calculations.
 
 **Converted from:** `DRILL.C` (M. W. Klotz), `MWKC/WorkshopUtilities/drill.zip`
 **Go source:** `MWKGo/drill/drill.go`
+**Original documentation:** `DRILL.TXT`, inside `MWKC/WorkshopUtilities/drill.zip` (not included in this conversion)
 
 ## Purpose
 

@@ -4,6 +4,7 @@ One-dimensional stock-cutting via a "best fit decreasing" heuristic.
 
 **Converted from:** `CUTLIST.C` (Mike Graham), `MWKC/WorkshopUtilities/cuts.zip`
 **Go source:** `MWKGo/cutlist/cutlist.go`
+**Original documentation:** `CUTS.TXT`, inside `MWKC/WorkshopUtilities/cuts.zip` (not included in this conversion)
 
 ## Purpose
 
