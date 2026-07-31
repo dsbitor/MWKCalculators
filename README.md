@@ -191,3 +191,11 @@ logging, SQLite usage, Fossil workflow, documentation and
 Markdown conventions) live in the upstream Fossil repository's
 own `ai/context/` directory, not in this GitHub copy — see
 "Published at" above.
+
+## Acknowledgments
+
+The conversion of all 124 Go programs, their tests and
+documentation, and the setup of this GitHub publication were
+carried out with Claude (Anthropic), working from the original
+DOS C source under Marv Klotz's guidance-in-code rather than a
+redesign brief.
