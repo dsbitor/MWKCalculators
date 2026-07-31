@@ -198,4 +198,10 @@ The conversion of all 124 Go programs, their tests and
 documentation, and the setup of this GitHub publication were
 carried out with Claude (Anthropic), working from the original
 DOS C source under Marv Klotz's guidance-in-code rather than a
-redesign brief.
+redesign brief. About two days of preparatory work (assembling a
+clean copy of the original C sources, and setting up project
+infrastructure and standards) preceded the first Fossil commit
+on 2026-07-26; from there, 55 Fossil commits over the following
+four days brought the conversion, its tests, its documentation,
+and this GitHub publication to completion by 2026-07-30 — under
+a week end to end.
